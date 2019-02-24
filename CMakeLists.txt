@@ -4,3 +4,6 @@ project(DataStructures)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(c main.c)
+
+
+add_executable(quickSort algorithm/QuickSort.c)
